@@ -39,6 +39,7 @@ wheels/
 # IDE
 .idea/
 .clinerules-*
+memory-bank/
 .roomodes
 .vscode/
 *.swp
