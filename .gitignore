@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+agents/__pycache__/
+tools/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.alert.json
+*.search.json
+commit-message*.md
+.Python
+venv/
+.venv
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+data/
+logs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+
+# IDE
+.idea/
+.clinerules-*
+.roomodes
+.vscode/
+*.swp
+*.swo
+.DS_Store
