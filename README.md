@@ -35,6 +35,7 @@ The A-MEM system is built on several key implementation features that enable its
 
 ### Implementation Considerations
 
+- This repo uses Agno for agent orchestration
 - Use Agno's monitoring=True flag to track memory graph metrics
 - Implement conflict resolution with versioned_nodes table
 - Schedule periodic memory_graph.optimize() calls for large datasets
@@ -144,6 +145,7 @@ For detailed best practices, refer to the specialized documentation files:
 
 ## Resources
 [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110)
+
 [Agentic Memory(A-MEM): Long-Term Knowledge Management for LLM Agents](https://levelup.gitconnected.com/agentic-memory-a-mem-long-term-knowledge-management-for-llm-agents-af06b5df48dc)
 
 ## Contributing
